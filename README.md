@@ -4,6 +4,9 @@ The WordPress plugin that manages voting functionality for [WPCampus](https://wp
 
 Was originally a fork of deprecated [WPMUDEV QA](https://github.com/wpmudev/qa).
 
+## To-Do
+* Update the textdomain to "wpcampus" and remove the variable textdomain usage.
+
 ## Disclaimer
 
 This repo is shared for educational purposes. Feel free to explore, copy, submit fixes, and share the code.
