@@ -1,0 +1,1 @@
+# wpcampus-vote-plugin
