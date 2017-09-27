@@ -1,36 +1,14 @@
 <?php
-/*
-Plugin Name: Q&A - WordPress Questions and Answers Plugin
-Plugin URI: http://premium.wpmudev.org/project/qa-wordpress-questions-and-answers-plugin
-Description: Q&A allows any WordPress site to have a fully featured questions and answers section - just like StackOverflow, Yahoo Answers, Quora and more...
-Author: WPMU DEV
-Version: 1.4.5.2-beta
-Author URI: http://premium.wpmudev.org/
-WDP ID: 217
-Text Domain: qa
-*/
-
-/*
-
-Authors - Marko Miljus, S H Mohanjith, scribu, Hakan Evin, Arnold Bailey
-
-Copyright 2007-2015 Incsub, (http://incsub.com)
-
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License (Version 2 - GPLv2) as published by
-the Free Software Foundation.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-
-*/
-
+/**
+ * Plugin Name:       WPCampus: Vote
+ * Plugin URI:        https://github.com/wpcampus/wpcampus-vote-plugin
+ * Description:       Holds vite functionality for the main WPCampus website.
+ * Version:           1.0.0
+ * Author:            WPCampus
+ * Author URI:        https://wpcampus.org
+ * Text Domain:       wpcampus
+ * Domain Path:       /languages
+ */
 
 // Check if we already have Q&A or Q&A Lite installed and running
 if ( !class_exists( 'QA_Core' ) ) {
